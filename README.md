@@ -31,7 +31,7 @@ Track your impact and see how your sustainable commuting efforts stack up agains
 
 ## How to Run
 
-To access the Sustainable Transportation Hub, simply open the homepage file provided. From there, you can navigate to all other pages and features seamlessly. No additional downloads or installations required – just open and explore!
+To access the Sustainable Transportation Hub, simply open the above directory and search for homepage.html file provided. From there, just open it and then you can navigate to all other pages and features seamlessly. No additional downloads or installations required – just open and explore!
 
 Let's make every commute count towards a cleaner, healthier planet. Start your journey with us today!
 
