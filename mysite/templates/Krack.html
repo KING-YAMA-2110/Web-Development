@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    {% if settings.STATIC_URL %}
+        <link rel="stylesheet" href="Krack.css">
+    {% endif %}
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form method="post">
+        {% csrf_token %}  {{ form.username.label_tag }}
+        {{ form.username }}
+        {{ form.password.label_tag }}
+        {{ form.password }}
+        <br>
+        {% if form.remember_me %}
+            <label for="remember_me">
+                <input type="checkbox" id="remember_me" name="remember_me"> Remember me
+            </label>
+        {% endif %}
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    </body>
+</html>
