@@ -37,6 +37,11 @@ Let's make every commute count towards a cleaner, healthier planet. Start your j
 
 ---
 
+## Contributions
+Chat-GPT, Web-Scraping, Youtube tutorials and Shower of Knowledge from Mentors
+
 **About Funky Developers**: 
 Funky Developers is a team of passionate developers dedicated to creating innovative solutions for a sustainable future. Through our projects and initiatives, we aim to harness the power of technology to address environmental challenges and promote eco-friendly lifestyles. Join us in our mission to make the world a greener, more sustainable place for future generations. This is our solution for the Problem Statement 4 of the Krack-Hack GDSC Hackathon.
 Thanks
+
+
