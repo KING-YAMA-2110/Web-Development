@@ -1,0 +1,124 @@
+/* api.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#dataDisplay {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.data-item p{
+    color: #333;
+    justify-content: center;
+    margin-right:4px;
+
+}
+
+div {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 8px;
+    padding-left: 20px; /* Make room for the color bar */
+    position: relative;
+}
+
+
+li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; 
+    height: 100%; 
+    border-radius: 5px;
+}
+
+
+li:nth-child(1)::before {
+    background-color: #4CAF50; 
+}
+
+li:nth-child(2)::before {
+    background-color: #8BC34A; 
+}
+
+li:nth-child(3)::before {
+    background-color: #FFEB3B; 
+}
+
+li:nth-child(4)::before {
+    background-color: #FFC107; 
+}
+
+li:nth-child(5)::before {
+    background-color: #F44336; 
+}
+

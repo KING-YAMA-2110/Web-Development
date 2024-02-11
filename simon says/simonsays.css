@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Button Styles */
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+    position: relative;
+    font-size: 24px; /* Icon Size */
+    color: white; /* Icon Color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn i { /* Ensuring icon is centered within the button */
+    pointer-events: none;
+}
+
+.red {
+    background-color: #ff4b5c;
+}
+
+.purple {
+    background-color: #be93c5;
+}
+
+.green {
+    background-color: #7bc043;
+}
+
+.yellow {
+    background-color: #fde74c;
+}
+
+.flash {
+    animation: flashAnimation 0.5s ease;
+}
+
+.userflash {
+    animation: flashAnimation 0.25s ease;
+}
+
+@keyframes flashAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Leaderboard Styles */
+.leaderboard {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.leaderboard th, .leaderboard td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.leaderboard th {
+    background-color: #007bff;
+    color: white;
+}
+
+.leaderboard td {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .btn {
+        height: 80px;
+        width: 80px;
+    }
+
+    .leaderboard {
+        width: 100%;
+    }
+}
+
+/* Additional Styles for Better Aesthetics */
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Game Over Style */
+.game-over {
+    color: #ff4b5c;
+    font-size: 24px;
+    font-weight: bold;
+}

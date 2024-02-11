@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Air Pollution History</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="api.css">
+    <style>
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Air Pollution History Checker</h2>
+<p>Enter a location to check its air pollution history for the past 24 hours.</p>
+<label for="location">Location:</label>
+<input type="text" id="location" name="location">
+<button onclick="getAirPollutionHistory()"><i class="fas fa-search"></i> Check</button>
+<div> 
+    <p>Air Quality</p> 
+    <ul class="air-quality-list">
+        <li><span class="color-bar" style="background-color: #4CAF50;"></span><span class="quality">1: Very Good</span></li>
+        <li><span class="color-bar" style="background-color: #8BC34A;"></span><span class="quality">2: Good</span></li>
+        <li><span class="color-bar" style="background-color: #FFEB3B;"></span><span class="quality">3: Moderate</span></li>
+        <li><span class="color-bar" style="background-color: #FFC107;"></span><span class="quality">4: Poor</span></li>
+        <li><span class="color-bar" style="background-color: #F44336;"></span><span class="quality">5: Very Poor</span></li>
+    </ul>
+</div>
+
+<div id="dataDisplay"></div>
+<script src="api.js"></script>
+
+</body>
+</html>

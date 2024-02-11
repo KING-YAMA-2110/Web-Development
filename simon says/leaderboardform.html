@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Leaderboard</title>
+<link rel="stylesheet" href="leaderboardform.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<body>
+<h2>Update Leaderboard</h2>
+<form id="leaderboardForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="steps">Steps:</label>
+    <input type="number" id="steps" name="steps" required>
+    <input type="submit" value="Submit">
+</form>
+<table id="leaderboard">
+    <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Steps</th>
+    </tr>
+</table>
+
+<script src="leaderboardupdate.js"></script>
+</body>
+</html>
+
